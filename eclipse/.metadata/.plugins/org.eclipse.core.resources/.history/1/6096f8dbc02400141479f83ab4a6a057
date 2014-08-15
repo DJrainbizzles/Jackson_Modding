@@ -16,7 +16,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.network.play.server.S2BPacketChangeGameState;
@@ -322,11 +321,9 @@ public class AdArrowLaser extends Entity implements IProjectile
                     if (this.isBurning() && !(movingobjectposition.entityHit instanceof EntityEnderman))
                     {
                         movingobjectposition.entityHit.setFire(5);
-                        explode();
                     }
                     else {
                     	movingobjectposition.entityHit.setFire(5);
-                    	explode();
                     }
                     
 
@@ -360,7 +357,6 @@ public class AdArrowLaser extends Entity implements IProjectile
                             if (this.shootingEntity != null && movingobjectposition.entityHit != this.shootingEntity && movingobjectposition.entityHit instanceof EntityPlayer && this.shootingEntity instanceof EntityPlayerMP)
                             {
                                 ((EntityPlayerMP)this.shootingEntity).playerNetServerHandler.sendPacket(new S2BPacketChangeGameState(6, 0.0F));
-                                explode();
                             }
                         }
 
@@ -452,9 +448,7 @@ public class AdArrowLaser extends Entity implements IProjectile
                 {
                     f4 = 0.25F;
                     this.worldObj.spawnParticle("bubble", this.posX - this.motionX * (double)f4, this.posY - this.motionY * (double)f4, this.posZ - this.motionZ * (double)f4, this.motionX, this.motionY, this.motionZ);
-                explode();
                 }
-                
 
                 f3 = 0.8F;
             }
@@ -524,8 +518,6 @@ public class AdArrowLaser extends Entity implements IProjectile
      */
     public void onCollideWithPlayer(EntityPlayer par1EntityPlayer)
     {
-    	explode();
-    	
         if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
         {
             boolean flag = this.canBePickedUp == 1 || this.canBePickedUp == 2 && par1EntityPlayer.capabilities.isCreativeMode;
@@ -622,7 +614,7 @@ public class AdArrowLaser extends Entity implements IProjectile
     
     private void explode()
     {
-        float f = 2.0F;
+        float f = 8.0F;
         this.worldObj.createExplosion(this, this.posX, this.posY, this.posZ, f, true);
     }
     

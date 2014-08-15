@@ -1,8 +1,8 @@
-[14:03:21] [main/INFO]: Setting user: Player760
-[14:03:22] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:03:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
-[14:03:27] [Sound Library Loader/INFO]: Sound engine started
-[14:03:27] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore.png
+[14:12:30] [main/INFO]: Setting user: Player527
+[14:12:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:12:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
+[14:12:37] [Sound Library Loader/INFO]: Sound engine started
+[14:12:37] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore.png
 java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -20,7 +20,7 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore.p
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:27] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/diamondGlass.png
+[14:12:37] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/diamondGlass.png
 java.io.FileNotFoundException: yourmodsname:textures/blocks/diamondGlass.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -38,8 +38,8 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/diamondGlass.png
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:03:28] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/items/myCustomSword.png
+[14:12:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:12:38] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/items/myCustomSword.png
 java.io.FileNotFoundException: yourmodsname:textures/items/myCustomSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -57,7 +57,7 @@ java.io.FileNotFoundException: yourmodsname:textures/items/myCustomSword.png
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/bow.png
+[14:12:38] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/bow.png
 java.io.FileNotFoundException: minecraft:textures/items/bow.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -75,9 +75,9 @@ java.io.FileNotFoundException: minecraft:textures/items/bow.png
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:03:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
-[14:03:28] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/items/myCustomSword.png
+[14:12:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:12:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:yourmodsname
+[14:12:38] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/items/myCustomSword.png
 java.io.FileNotFoundException: yourmodsname:textures/items/myCustomSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -98,7 +98,7 @@ java.io.FileNotFoundException: yourmodsname:textures/items/myCustomSword.png
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/bow.png
+[14:12:38] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/items/bow.png
 java.io.FileNotFoundException: minecraft:textures/items/bow.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -119,8 +119,8 @@ java.io.FileNotFoundException: minecraft:textures/items/bow.png
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:03:28] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore.png
+[14:12:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:12:38] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/hardore_pumpkinore.png
 java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -141,7 +141,7 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/hardore_pumpkinore.p
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/diamondGlass.png
+[14:12:38] [Client thread/ERROR]: Using missing texture, unable to load yourmodsname:textures/blocks/diamondGlass.png
 java.io.FileNotFoundException: yourmodsname:textures/blocks/diamondGlass.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -162,28 +162,6 @@ java.io.FileNotFoundException: yourmodsname:textures/blocks/diamondGlass.png
 	at java.lang.reflect.Method.invoke(Method.java:597) ~[?:1.6.0_65]
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
-[14:03:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:03:29] [Sound Library Loader/INFO]: Sound engine started
-[14:03:30] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
-[14:03:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
-[14:03:32] [Server thread/INFO]: Generating keypair
-[14:03:32] [Server thread/INFO]: Preparing start region for level 0
-[14:03:33] [Server thread/INFO]: Player760[local:E:409fed57] logged in with entity id 397 at (-147.0556138567946, 67.21802239191892, 309.7137402254014)
-[14:03:33] [Server thread/INFO]: Player760 joined the game
-[14:04:12] [Server thread/INFO]: Player760 has just earned the achievement [Taking Inventory]
-[14:04:12] [Client thread/INFO]: [CHAT] Player760 has just earned the achievement [Taking Inventory]
-[14:04:50] [Server thread/INFO]: Saving and pausing game...
-[14:04:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:04:50] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:04:50] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:04:52] [Server thread/INFO]: Saving and pausing game...
-[14:04:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:04:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:04:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:04:52] [Server thread/INFO]: Stopping server
-[14:04:52] [Server thread/INFO]: Saving players
-[14:04:52] [Server thread/INFO]: Saving worlds
-[14:04:52] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:04:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:04:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:04:54] [Client thread/INFO]: Stopping!
+[14:12:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:12:39] [Sound Library Loader/INFO]: Sound engine started
+[14:12:40] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms

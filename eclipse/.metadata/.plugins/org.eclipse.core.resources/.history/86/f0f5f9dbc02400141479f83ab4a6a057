@@ -51,7 +51,7 @@ public class AdLaserGun extends Item
 
         boolean flag = par3EntityPlayer.capabilities.isCreativeMode || EnchantmentHelper.getEnchantmentLevel(Enchantment.infinity.effectId, par1ItemStack) > 0;
 
-        if (flag || par3EntityPlayer.inventory.hasItem(MyCode.adBattery))
+        if (flag || par3EntityPlayer.inventory.hasItem(MyCode.battery))
         {
             float f = (float)j / 20.0F;
             f = (f * f + f * 2.0F) / 3.0F;
@@ -101,7 +101,7 @@ public class AdLaserGun extends Item
             }
             else
             {
-                par3EntityPlayer.inventory.consumeInventoryItem(MyCode.adBattery);
+                par3EntityPlayer.inventory.consumeInventoryItem(MyCode.battery);
             }
 
             if (!par2World.isRemote)
