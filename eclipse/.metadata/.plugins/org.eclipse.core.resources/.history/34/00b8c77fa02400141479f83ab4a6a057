@@ -1,0 +1,8 @@
+package assets.yourmodsname.textures.models;
+
+public class Snippet {
+	public static void main(String[] args) {
+		arrow.png
+	}
+}
+
